@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "quote-editor",
   "private": true,
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",

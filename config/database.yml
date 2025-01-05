@@ -11,17 +11,17 @@ default: &default
 
 development:
   <<: *default
-  database: my_quote_editor_dev
+  database: quote_editor_dev
 
 test:
   <<: *default
-  database: my_quote_editor_test
+  database: quote_editor_test
 
 production:
   primary: &primary_production
     <<: *default
-    database: my_quote_editor_production
-    username: my_quote_editor
+    database: quote_editor_production
+    username: quote_editor
     password: <%= ENV["MY_QUOTE_EDITOR_DATABASE_PASSWORD"] %>
   cache:
     <<: *primary_production
