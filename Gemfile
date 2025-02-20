@@ -10,7 +10,7 @@ gem "stimulus-rails"
 gem "cssbundling-rails"
 gem "jbuilder"
 gem "simple_form"
-gem "redis", "~> 5.0"
+gem "redis", "~> 5.4"
 
 # Use Active Model has_secure_password
 # gem "bcrypt", "~> 3.1.7"
